@@ -8,6 +8,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta content="Funktapuss" property="og:title">
+
+    
+        <meta content="https://landing-page-app-hero-images.s3.amazonaws.com/media/DTNFZKKQN9UJABK7SNNV9SPZU5ORHQBCP6QFNWQZ.jpeg" property="og:image">
+        <meta content="Funktapuss" property="twitter:title">
+        <meta content="https://landing-page-app-hero-images.s3.amazonaws.com/media/DTNFZKKQN9UJABK7SNNV9SPZU5ORHQBCP6QFNWQZ.jpeg" property="twitter:image">
+        <link href="https://landing-page-app-hero-images.s3.amazonaws.com/media/DTNFZKKQN9UJABK7SNNV9SPZU5ORHQBCP6QFNWQZ.jpeg" rel="shortcut icon" type="image/x-icon">
+        <link href="https://landing-page-app-hero-images.s3.amazonaws.com/media/DTNFZKKQN9UJABK7SNNV9SPZU5ORHQBCP6QFNWQZ.jpeg" rel="apple-touch-icon">     
     
     <title>
          
@@ -43,8 +50,8 @@
     <div class="fixed z-40 w-full lg:h-25 lg:py-4 items-start justify-start  bg-white text-gray-700  dark-mode:text-gray-200 dark-mode:bg-gray-800">
   <div x-data="{ open: false }" class="flex flex-col lg:flex-r max-w-screen-xl px-4 mx-auto lg:items-center lg:justify-between lg:flex-row lg:px-6 lg:px-8">
     <div class="py-4 flex flex-row items-center justify-between">
-        
-        <a href="index" class="text-lg font-bold tracking-widest  text-gray-900  uppercase rounded-lg dark-mode:text-white focus:outline-none focus:shadow-outline">Funktapuss</a>
+      
+        <a href= " #about "> <img class="h-16 w-auto relative" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/DTNFZKKQN9UJABK7SNNV9SPZU5ORHQBCP6QFNWQZ.jpeg" alt="Funktapuss logo"> </a>
       
       <button class="lg:hidden rounded-lg focus:outline-none focus:shadow-outline" @click="open = !open">
         <svg fill="currentColor" viewBox="0 0 20 20" class="w-6 h-6">
@@ -107,11 +114,16 @@ class="flex relative flex-col w-full  bg-indigo-900 text-white  lg:flex-row lg:f
     <div class="flex justify-end p-8 lg:py-32 lg:px-16 lg:pl-10 lg:w-1/2">
         <div class="flex flex-col items-center lg:items-start justify-center w-full lg:max-w-lg">
             <h2 class="mb-3 text-3xl text-center font-extrabold  leading-none sm:text-4xl lg:text-7xl text-center lg:text-left">
-                Funktapuss  
+                Funktapuss 
             </h2>
             
             <h1 class="pt-5 lg:text-xl text-center lg:text-left">
-                The best local band for parties of all types!  in  Dennis-Port & surrounding areas.  Funk Never Dies!
+                <!--  
+                    The best local band for parties of all types!  in
+                     Dennis-Port & surrounding areas.
+                     
+                  -->
+                Funk Never Dies!
             </h1>
             
             <h2 class="py-5 mb-5 lg:text-xl text-center lg:text-left">
@@ -211,7 +223,9 @@ class="flex relative flex-col w-full  bg-indigo-900 text-white  lg:flex-row lg:f
     <div class="relative order-first lg:order-last block lg:w-1/2 ">
 
     
-        <img src="https://landing-page-app-hero-images.s3.amazonaws.com/media/125264149_10157332711212172_349888206158366400_n_WVXEsF2.jpg"  alt = "Main hero image of Funktapuss performing Local band for parties of all types!  work"  class="object-cover w-full lg:absolute h-80 lg:h-full">
+        <video class="object-cover w-full lg:absolute h-80 lg:h-full" autoplay loop muted playsinline >
+        <source src="https://landing-page-app-hero-images.s3.amazonaws.com/media/PXDP6O4J34V1Y5PQ9QXEPNFJQ6DIWRVGML91IBRQ.mp4" type = "video/mp4" >
+        </video>
     
     </div>
 
@@ -361,7 +375,7 @@ class="flex flex-col flex-grow w-full overflow-hidden  lg:flex-row sm:mx-auto  b
         <div class="container relative flex flex-col justify-between h-full max-w-6xl px-10 mx-auto xl:px-0">
             <h2 class="mb-3 text-3xl font-extrabold leading-none sm:text-4xl lg:text-7xl tracking-wide  text-center">Meet The Band</h2>
             <h2 class="my-3 mb-10 text-xl font-medium  text-indigo-400  text-center">Funktapuss's Top Moments</h2>
-            <div class="flex flex-wrap md:mx-4 md:mb-8 md:flex-row" x-data="{ open:false, activeSlide : 0, slides: [                       [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/67152750_10156098426212172_935249813266497536_n.jpg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/39467627_10155420737877172_7759549652260618240_n.jpg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/37007501_10155345033052172_8729688794837549056_n.jpg', 'photo'],   ] }" @keydown.escape= "open = false"   >
+            <div class="flex flex-wrap md:mx-4 md:mb-8 md:flex-row" x-data="{ open:false, activeSlide : 0, slides: [     [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1026x720/media/Capture1.PNG', 'photo'],    [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1026x720/media/Capture3.PNG', 'photo'],    [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1026x720/media/Capture2.PNG', 'photo'],    [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1026x720/media/Capture4.PNG', 'photo'],    [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1026x720/media/Capture5.PNG', 'photo'],    [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1026x720/media/Capture6.PNG', 'photo'],    [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1026x720/media/Capture7.PNG', 'photo'],    [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1026x720/media/Capture8.PNG', 'photo'],    [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1026x720/media/Capture9.PNG', 'photo'],    [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1026x720/media/67152750_10156098426212172_935249813266497536_n.jpg', 'photo'],    [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1026x720/media/39467627_10155420737877172_7759549652260618240_n.jpg', 'photo'],    [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1026x720/media/37007501_10155345033052172_8729688794837549056_n.jpg', 'photo'],   ] }" @keydown.escape= "open = false"   >
                                     
                     
                         <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40">
@@ -370,82 +384,52 @@ class="flex flex-col flex-grow w-full overflow-hidden  lg:flex-row sm:mx-auto  b
                         </div>
                     
                                     
-                    
-                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40">
-                            <video preload="metadata" class="rounded shadow-md object-cover w-full h-60" loading="lazy" controls> <source src="https://landing-page-app-hero-images.s3.amazonaws.com/media/Capture1.PNG#t=0.5" >
-                            </video>
-                        </div>
-                    
-                                    
-                    
-                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40">
-                            <video preload="metadata" class="rounded shadow-md object-cover w-full h-60" loading="lazy" controls> <source src="https://landing-page-app-hero-images.s3.amazonaws.com/media/Capture3.PNG#t=0.5" >
-                            </video>
-                        </div>
-                    
-                                    
-                    
-                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40">
-                            <video preload="metadata" class="rounded shadow-md object-cover w-full h-60" loading="lazy" controls> <source src="https://landing-page-app-hero-images.s3.amazonaws.com/media/Capture2.PNG#t=0.5" >
-                            </video>
-                        </div>
-                    
-                                    
-                    
-                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40">
-                            <video preload="metadata" class="rounded shadow-md object-cover w-full h-60" loading="lazy" controls> <source src="https://landing-page-app-hero-images.s3.amazonaws.com/media/Capture4.PNG#t=0.5" >
-                            </video>
-                        </div>
-                    
-                                    
-                    
-                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40">
-                            <video preload="metadata" class="rounded shadow-md object-cover w-full h-60" loading="lazy" controls> <source src="https://landing-page-app-hero-images.s3.amazonaws.com/media/Capture5.PNG#t=0.5" >
-                            </video>
-                        </div>
-                    
-                                    
-                    
-                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40">
-                            <video preload="metadata" class="rounded shadow-md object-cover w-full h-60" loading="lazy" controls> <source src="https://landing-page-app-hero-images.s3.amazonaws.com/media/Capture6.PNG#t=0.5" >
-                            </video>
-                        </div>
-                    
-                                    
-                    
-                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40">
-                            <video preload="metadata" class="rounded shadow-md object-cover w-full h-60" loading="lazy" controls> <source src="https://landing-page-app-hero-images.s3.amazonaws.com/media/Capture7.PNG#t=0.5" >
-                            </video>
-                        </div>
-                    
-                                    
-                    
-                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40">
-                            <video preload="metadata" class="rounded shadow-md object-cover w-full h-60" loading="lazy" controls> <source src="https://landing-page-app-hero-images.s3.amazonaws.com/media/Capture8.PNG#t=0.5" >
-                            </video>
-                        </div>
-                    
-                                    
-                    
-                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40">
-                            <video preload="metadata" class="rounded shadow-md object-cover w-full h-60" loading="lazy" controls> <source src="https://landing-page-app-hero-images.s3.amazonaws.com/media/Capture9.PNG#t=0.5" >
-                            </video>
-                        </div>
+                        
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 1; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/Capture1.PNG"  alt = "Photo number 2 of Funktapuss&#x27;s best work performing a null job"   loading="lazy" ></div>
                     
                                     
                         
-                              
-                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 10; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/67152750_10156098426212172_935249813266497536_n.jpg"  alt = "Photo number 11 of Funktapuss&#x27;s best work performing a null job"   loading="lazy" ></div>
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 2; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/Capture3.PNG"  alt = "Photo number 3 of Funktapuss&#x27;s best work performing a null job"   loading="lazy" ></div>
                     
                                     
                         
-                              
-                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 11; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/39467627_10155420737877172_7759549652260618240_n.jpg"  alt = "Photo number 12 of Funktapuss&#x27;s best work performing a null job"   loading="lazy" ></div>
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 3; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/Capture2.PNG"  alt = "Photo number 4 of Funktapuss&#x27;s best work performing a null job"   loading="lazy" ></div>
                     
                                     
                         
-                              
-                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 12; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/37007501_10155345033052172_8729688794837549056_n.jpg"  alt = "Photo number 13 of Funktapuss&#x27;s best work performing a null job"   loading="lazy" ></div>
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 4; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/Capture4.PNG"  alt = "Photo number 5 of Funktapuss&#x27;s best work performing a null job"   loading="lazy" ></div>
+                    
+                                    
+                        
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 5; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/Capture5.PNG"  alt = "Photo number 6 of Funktapuss&#x27;s best work performing a null job"   loading="lazy" ></div>
+                    
+                                    
+                        
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 6; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/Capture6.PNG"  alt = "Photo number 7 of Funktapuss&#x27;s best work performing a null job"   loading="lazy" ></div>
+                    
+                                    
+                        
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 7; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/Capture7.PNG"  alt = "Photo number 8 of Funktapuss&#x27;s best work performing a null job"   loading="lazy" ></div>
+                    
+                                    
+                        
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 8; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/Capture8.PNG"  alt = "Photo number 9 of Funktapuss&#x27;s best work performing a null job"   loading="lazy" ></div>
+                    
+                                    
+                        
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 9; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/Capture9.PNG"  alt = "Photo number 10 of Funktapuss&#x27;s best work performing a null job"   loading="lazy" ></div>
+                    
+                                    
+                        
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 10; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/67152750_10156098426212172_935249813266497536_n.jpg"  alt = "Photo number 11 of Funktapuss&#x27;s best work performing a null job"   loading="lazy" ></div>
+                    
+                                    
+                        
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 11; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/39467627_10155420737877172_7759549652260618240_n.jpg"  alt = "Photo number 12 of Funktapuss&#x27;s best work performing a null job"   loading="lazy" ></div>
+                    
+                                    
+                        
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 12; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/37007501_10155345033052172_8729688794837549056_n.jpg"  alt = "Photo number 13 of Funktapuss&#x27;s best work performing a null job"   loading="lazy" ></div>
                     
                  
                                     
@@ -527,7 +511,6 @@ class="flex flex-col flex-grow w-full overflow-hidden  lg:flex-row sm:mx-auto  b
 
             
 </div>
-
         
     
     
